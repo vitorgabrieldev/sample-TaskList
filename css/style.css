@@ -1,0 +1,57 @@
+
+.navbar-brand::first-letter
+{
+    font-size: 2rem;
+    color: rgb(87, 87, 87);
+}
+.pagMain
+{
+    height: 200%;
+
+    overflow-y: hidden;
+    position: absolute;
+    margin-top: 4.7rem;
+}
+
+.listCreateCards
+{
+    height: 100%;
+    padding: 2rem;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.listCreateCards textarea
+{
+    color: #fefefe;
+    font-family: monospace;
+    font-size: 1.3rem;
+
+    width: 20rem;
+    height: 20rem;
+    padding: .5rem;
+
+    background: rgba(107, 107, 107, 0.226);
+
+    border-radius: .3rem;
+    margin: 1rem;
+
+    cursor: pointer;
+    outline: none;
+
+    text-align: center;
+}
+.listCreateCards textarea:hover
+{
+    background: rgba(107, 107, 107, 0.425);
+}
+textarea::before
+{
+    content: '';
+    position: absolute;
+    background: rgba(236, 0, 0, 0.582);
+    width: 1.2rem;
+    height: 15rem;
+}
