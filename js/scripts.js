@@ -18,6 +18,6 @@ let BTNnewObject = document.querySelector('#BTNnewObject').addEventListener('cli
 
 });
 
-let editDivs = document.querySelector("div").addEventListener('click',() => {
-    alert('hello')
-})
+// let editDivs = document.querySelector("div").addEventListener('click',() => {
+//     alert('hello')
+// })
